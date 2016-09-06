@@ -33,8 +33,6 @@ class ViewController: UIViewController {
             }
         }
 
-    
-    
         func nowServing() -> String {
             if deliLine.isEmpty {
                 return("There is no one to be served.")
@@ -45,8 +43,6 @@ class ViewController: UIViewController {
                 return("Now serving \(x)!")
             }
         }
-    
-    
     
     var line: [String] = []
     var message = "The line is:"
